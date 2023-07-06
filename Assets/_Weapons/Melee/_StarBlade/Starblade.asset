@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97f31577eab6ad418d6cfae4950ac6b, type: 3}
+  m_Name: Starblade
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: eabe36486be42c44391228833863b4f8, type: 3}
+  weaponName: Starblade Black
+  damage: 6
+  heatUsage: 3
+  heatDispersalRate: 1.75
+  weaponForce: {x: 3, y: 0, z: 0}
+  weaponSound: {fileID: 8300000, guid: da0ecb693a5b62e4da6e0ddeaf1cb7d8, type: 3}
+  weaponType: 1
+  slashEffect: {fileID: 6671800390003257507, guid: decf7f87ee8ed174890856c6cab1af73, type: 3}
+  hitSoundFX: {fileID: 8300000, guid: 6ad82dd19621b53408e9fdee58de034f, type: 3}
+  atkRate: 0.65

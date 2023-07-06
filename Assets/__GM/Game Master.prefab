@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7697608185947422018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7697608185947422017}
+  - component: {fileID: 7697608185947422016}
+  - component: {fileID: 8902959953937406404}
+  - component: {fileID: 773785854013936522}
+  - component: {fileID: 57870294548068865}
+  - component: {fileID: 199028828300537701}
+  - component: {fileID: 3533337362773965181}
+  - component: {fileID: 5500513435976293841}
+  m_Layer: 0
+  m_Name: Game Master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7697608185947422017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697608185947422018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7697608185947422016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697608185947422018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fb15fbabba076489bd5a17f1a0f17a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pilot: {fileID: 11400000, guid: cb2cc5d08f15cce4181b17cc1cfb3f08, type: 2}
+  mech: {fileID: 11400000, guid: e269b1bb7b46f7242bcde167b85c0ee5, type: 2}
+  weapon: {fileID: 11400000, guid: b5427121e71137a42a4f5bae9e832e0f, type: 2}
+--- !u!114 &8902959953937406404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697608185947422018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94dec328901ea2544945d758cebad7e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pilotList:
+  - {fileID: 11400000, guid: cb2cc5d08f15cce4181b17cc1cfb3f08, type: 2}
+  - {fileID: 11400000, guid: 10b170c684843c04da08d4fe9e440d4d, type: 2}
+  - {fileID: 11400000, guid: b952495424751044a88945629f749eee, type: 2}
+  - {fileID: 11400000, guid: 382768d17f11ddf4f8c4f928a5f10bdb, type: 2}
+  - {fileID: 11400000, guid: 03de0f3284dc921499067cfa97403e98, type: 2}
+--- !u!114 &773785854013936522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697608185947422018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c1462de6755cc440a88ec7b39e6bfc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mechList:
+  - {fileID: 11400000, guid: e269b1bb7b46f7242bcde167b85c0ee5, type: 2}
+  - {fileID: 11400000, guid: c4dabf94b0a73334989e71e7f653c44e, type: 2}
+  - {fileID: 11400000, guid: a2a99654758c6ee4f9dd61e399c2e693, type: 2}
+  - {fileID: 11400000, guid: 21de57f1dc91a19469e286f93d03e9d5, type: 2}
+  - {fileID: 11400000, guid: 0a4b67f1866aa4d43b7ea8e51a0ca420, type: 2}
+--- !u!114 &57870294548068865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697608185947422018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d6de32e3704c4641add68cf51bd0fb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponList:
+  - {fileID: 11400000, guid: b5427121e71137a42a4f5bae9e832e0f, type: 2}
+  - {fileID: 11400000, guid: 4eff1cd80aa055d48af1ff4928466bbf, type: 2}
+  - {fileID: 11400000, guid: a9616a89a187c3c4daa3a73991d8b393, type: 2}
+  - {fileID: 11400000, guid: b75aac0efc8dd694983234499d3c0070, type: 2}
+  - {fileID: 11400000, guid: e68321111c1ed4840aeb193125eaf831, type: 2}
+  - {fileID: 11400000, guid: 2531e5525d3629847a0932e2ecd50d2a, type: 2}
+  - {fileID: 11400000, guid: 3e4369935072cd840b25fa5ce436fb50, type: 2}
+  - {fileID: 11400000, guid: ba6c368e219f94e40ab21d7ada681243, type: 2}
+  swordList:
+  - {fileID: 11400000, guid: 4eff1cd80aa055d48af1ff4928466bbf, type: 2}
+  - {fileID: 11400000, guid: a9616a89a187c3c4daa3a73991d8b393, type: 2}
+  - {fileID: 11400000, guid: b75aac0efc8dd694983234499d3c0070, type: 2}
+  - {fileID: 11400000, guid: 3e4369935072cd840b25fa5ce436fb50, type: 2}
+  - {fileID: 11400000, guid: ba6c368e219f94e40ab21d7ada681243, type: 2}
+  gunList:
+  - {fileID: 11400000, guid: b5427121e71137a42a4f5bae9e832e0f, type: 2}
+  - {fileID: 11400000, guid: e68321111c1ed4840aeb193125eaf831, type: 2}
+  - {fileID: 11400000, guid: 2531e5525d3629847a0932e2ecd50d2a, type: 2}
+--- !u!114 &199028828300537701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697608185947422018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12902bf949b42e47b102d8510d566b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldInBank: 0
+--- !u!114 &3533337362773965181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697608185947422018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3122af9b24f0fdb49b3b99014980552e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waiting: 0
+--- !u!114 &5500513435976293841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7697608185947422018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82edfb241cefb44191a2e3bcbed2d04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

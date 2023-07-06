@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 056af2aeaffff4945bda9c7ce2d8a4ac, type: 3}
+  m_Name: Veritaz
+  m_EditorClassIdentifier: 
+  mechName: Veritaz Mach V
+  weaponUseType: 1
+  armor: 12
+  maxFuel: 350
+  currentFuel: 350
+  damageOutput: 2
+  thrusters: 4
+  actor: {fileID: 8170997081962052085, guid: 243c7d92b453a6548b1ab30e2bd714f0, type: 3}
+  portrait: {fileID: 0}

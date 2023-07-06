@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fe71cf36ddcf2f4ebc0a21e980f755c, type: 3}
+  m_Name: Minibuster
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 98cc1ae37ab86da4abf61ce4e707396f, type: 3}
+  weaponName: Minibuster-A
+  damage: 1
+  atkRate: 0.75
+  heatUsage: 5
+  heatDispersalRate: 2.85
+  weaponForce: {x: -0.75, y: 0, z: 0}
+  weaponSound: {fileID: 8300000, guid: ff829240f8d1be94089b2c1ab283917a, type: 3}
+  weaponType: 0
+  projectile: {fileID: 6276696469983665999, guid: 69cfbf6fbfdef7243addce601014d62b, type: 3}
+  projSpeed: 6

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b717b345e42153044b868dc0eeb2311e, type: 3}
+  m_Name: 02
+  m_EditorClassIdentifier: 
+  missionUnlocked: 0
+  missionComplete: 0
+  unlockablePilot: 1
+  pilotUnlock: {fileID: 11400000, guid: b952495424751044a88945629f749eee, type: 2}
+  unlockableMecha: 0
+  mechaUnlock: {fileID: 11400000, guid: c4dabf94b0a73334989e71e7f653c44e, type: 2}
+  unlockableWeapon: 0
+  weaponUnlock: {fileID: 0}
+  initialMission: 0
+  missionOneHasBoss: 0
+  minibossPool: []
+  secondMision: 0
+  missionTwoHasBoss: 0
+  bossPool: []
+  minimumScore: 18
+  maximumScore: 32
+  minimumSurviveTime: 0
+  maximumSurviveTime: 0
+  missionTitle: Mountains 02
+  openingImage: {fileID: 0}
+  missionInfo: We figured if we fought hard enough, there was a chance to beat 'em
+    back. Too bad our best mathmeticians were two ducks and a baby.
